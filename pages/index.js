@@ -1,3 +1,5 @@
+import Button from './button';
+
 function Home() {
   return (
     <div
@@ -10,6 +12,7 @@ function Home() {
       }}
     >
       <h1>Welcome Home!</h1>
+      <Button />
     </div>
   );
 }
