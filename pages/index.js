@@ -1,3 +1,6 @@
+import Button from './button';
+// import Btn from './btn';
+
 function Home() {
   return (
     <div
@@ -9,7 +12,9 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      <h1>Welcome Home!</h1>
+      <h1>Welcome to Got Jokes!</h1>
+
+      <Button />
     </div>
   );
 }
