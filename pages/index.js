@@ -1,4 +1,5 @@
-import Button from './button';
+// import Button from './button';
+import Btn from './btn';
 
 function Home() {
   return (
@@ -11,8 +12,9 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      <h1>Welcome Home!</h1>
-      <Button />
+      <h1>Welcome to Joke Central!</h1>
+
+      <Btn />
     </div>
   );
 }
